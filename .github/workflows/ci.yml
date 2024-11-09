@@ -1,3 +1,4 @@
+
 name: teste CI
 on: [push,pull_request]
 jobs:
@@ -15,3 +16,4 @@ jobs:
         run: mvn clean install
       - name: Run tests
         run: mvn test
+
